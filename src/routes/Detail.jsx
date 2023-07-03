@@ -9,7 +9,7 @@ export default function Detail() {
     console.log(paramData)
     console.log(search)
 
-    const { isLoading, error, data } = useQuery(paramData[1], () =>
+    const { data } = useQuery(paramData[1], () =>
         fetch(`https://gateway.marvel.com:443/v1/public/${paramData[1]}/${id}?apikey=0c90e701f4899622ea1b5628ea8df350`).then(res =>
             res.json()
         )

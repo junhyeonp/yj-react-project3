@@ -1,4 +1,4 @@
-import { Box, Grid, HStack, Image, Skeleton, Text, VStack, } from "@chakra-ui/react";
+import { Box, Grid, HStack, Image, Text, VStack, } from "@chakra-ui/react";
 import CarouselSlick from "../components/CarouselSlick";
 import CardItems from "../components/CardItems";
 import TitleImageSkew from "../components/TitleImageSkew";
